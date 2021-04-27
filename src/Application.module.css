@@ -1,0 +1,25 @@
+.Container {
+  max-width: 800px;
+  align-items: center;
+  margin: 0 auto;
+  display: flex;
+  flex-direction: column;
+}
+
+.Button {
+  border: 1px solid #ccc;
+  border-radius: 5px;
+  background-color: white;
+  padding: 9px;
+  color: #888;
+  font-weight: 700;
+}
+
+.Button:hover {
+  background-color: #888;
+  color: white;
+}
+
+.Heading {
+  color: #999;
+}
